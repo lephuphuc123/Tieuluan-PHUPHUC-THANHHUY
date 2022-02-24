@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+body{
+    font-family: Segoe UI;
+    margin: 0 auto;
+    }
+#header {
+    font-family: Segoe UI;
+    background-color: #2b2b2b;
+    background-size: 100% 100%;
+    height: auto;
+    }
+.main-header{
+    width: 65%;
+    margin: 0px auto 0px auto ;
+    color: rgb(116, 108, 108);
+    display: flex;
+    }
+.main-header ul{
+    width: 100%;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    font-weight: 500;
+    padding-top: 35px;
+}
+.main-header ul li{
+    width: 50%;
+    padding-top: 15px;
+    /* padding-left: 120px; */
+}
+.main-header ul li a:hover{
+    color: rgb(190, 190, 81);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.main-header ul li a {
+    color: rgb(189, 183, 183);
+}
+.a {
+    display: flex;
+}
+.a a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #c6a47e;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.a a .logo{
+    padding-top: 8px;
+}
+.a a .logo1{
+    border: 3.5px solid #c6a47e;
+    padding: 5px 13px 5px 13px
+}
+#main{
+    background-color: #2b2b2b;
+    height: auto;
+}
+.chuto-final{
+    width: 66%;
+    margin: 0px auto 0px auto;
+    padding: 120px 0px 50px 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 3px; 
+    font-size: 25px;
+    color: rgb(189, 183, 183);
+}
+.project ul {
+    text-align: center;
+    width: 80%;
+    padding-bottom: 40px;
+    margin: 0px auto 0px auto;
+}
+.project ul .action {
+    opacity: 0;
+}
+.project ul .action:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.project .number{
+    color: white;
+    font-size: 110px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    position: absolute;
+    margin: 200px 0px 0px 450px;
+}
+.project ul .action a i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+}
+.project ul .action .heart i{
+    margin: 500px 0px 0px 390px;
+}
+.project ul .action .share i{
+    margin: 500px 0px 0px -410px;
+}
+.project ul img{
+    width: 890px;
+    height: 553px;
+}
+.project ul .nenden{
+    width: 895px;
+    height: 553px;
+    background-color:rgba(46, 43, 43, 0.527);
+    position: absolute;
+    margin-left: 95px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.footer .content_content {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(189, 183, 183);
+    width: 65%;
+    margin: auto;
+    display: flex;
+}
+.footer .content_content .left {
+    width: 50%;
+}
+.footer .content_content .left .object h3{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+.footer .content_content .left .infor {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    letter-spacing: -0.5px;
+    padding-bottom: 20px;
+}
+.footer .content_content .left .infor .infor_left {
+    width: 50%;
+}
+.footer .content_content .left .infor .infor_left h4{
+    
+    font-weight: lighter;
+    margin-bottom: 10px;
+    
+}
+.footer .content_content .left .infor .infor_left i{
+    padding-right: 10px;
+}
+.footer .content_content .left .infor .infor_right {
+    width: 50%;
+
+}
+.footer .content_content .right{
+    width: 50%;
+    padding-left: 50px;
+}
+.footer .content_content .left .final{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(189, 183, 183);
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+.footer .content_content .right .object{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.footer .content_content .right .content_right{
+    display: flex;
+    padding-top: 20px;
+}
+.footer .content_content .right .content_right span{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(189, 183, 183);
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+.footer .content_content .right .content_right .right_left .text_left{
+    padding-bottom: 5px;
+}
+.footer .content_content .right .content_right .right_left .text_left input{
+    height: 30px;
+    padding-left: 8px;
+    color: white;
+    background-color: black;
+    border: white 1px solid;
+}
+.footer .content_content .right .content_right .right_left .text_left input:hover{
+    background-color: gray;
+    border-color: red 1px solid;
+    cursor: pointer;
+}
+.footer .content_content .right .content_right .right_right{
+    padding-left: 15px;
+}
+.footer .content_content .right .content_right .right_right .text_right input{
+    padding-bottom: 70px;
+    padding-left: 8px;
+    padding-top: 5px;
+    color: white;
+    background-color: black;
+    border: white 1px solid;
+}
+.footer .content_content .right .content_right .right_right .text_right input:hover {
+    background-color: gray;
+    border-color: red 1px solid;
+    cursor: pointer;
+}
+.footer .content_content .right .content_right .right_right button{
+    margin-top: 5px;
+    height: 30px;
+    padding: 0 25px;
+    font-size: 15px;
+    float: right;
+    background-color: pink;
+    border:none;
+}
+.footer .content_content .right .content_right .right_right button:hover{
+    color: white;
+    background-color: black;
+    border: white 1px solid;
+}
